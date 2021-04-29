@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+    <title>Reto 3</title>
+</head>
+<style>
+    body{
+        background-color: hsl(185, 75%, 39%);
+        width: 100%;
+        height: 100%;
+    }
+
+    .carta{
+        height: 400px;
+        width:350px ;
+        background-color: aliceblue;
+        margin-top: 115px;
+        margin-left: auto;
+        margin-right: auto;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    .carta-superior{
+        width: 350px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .fondo{
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .perfil{
+        margin-top: -50px;
+        margin-left: 128px;
+        display: flex;
+    }
+    
+    .perfil img{
+        border-radius: 52px;
+        border: 5px solid white;
+    }
+
+    .carta-inferior-datos{
+        text-align: center;
+        margin-top: 6px;
+        margin-bottom: 0;
+    }
+
+    .carta-inferior-datos p{
+        margin-top: -12px;
+        margin-bottom: 0;
+    }
+
+    .caja-footer{
+        border-top: 1px solid gray;
+        margin-top: 17px;
+    }
+
+    .footer{
+        
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        margin-top: 3px;
+    }
+
+    .footer-col2{
+        margin-left: 35px;
+    }
+
+    .footer-col3{
+        margin-left: 40px;
+    }
+   
+</style>
+<body>
+    <div class="carta">
+        <div class="carta-superior">
+            <img class="fondo" src="bg-pattern-card.svg" alt="sup">
+        </div>
+
+        <div class="carta-inferior">
+            <div class="perfil" >
+            <img src="image-victor.jpg" alt="">
+            </div>
+            <div class="carta-inferior-datos">
+                <h2 style="font-family: 'Kumbh Sans', sans-serif;">Victor Crest <span style="font-family: 'Kumbh Sans', sans-serif; color:hsl(0, 0%, 59%); font-size: 22px;">26</span></h2>
+                <p style="font-family: 'Kumbh Sans', sans-serif; color:hsl(0, 0%, 59%);">London</p>
+            </div>
+            <div class="caja-footer">
+                    <div class="footer">
+                        <div class="footer-col1">
+                            <h2 style="font-family: 'Kumbh Sans', sans-serif;">80K</h2>
+                            <p style="font-family: 'Kumbh Sans', sans-serif; color:hsl(0, 0%, 59%);">Followers</p>
+                        </div>
+                        
+                        <div class="footer-col2">
+                            <h2 style="font-family: 'Kumbh Sans', sans-serif;">803K</h2>
+                            <p style="font-family: 'Kumbh Sans', sans-serif; color:hsl(0, 0%, 59%);">Likes</p>
+                        </div>
+                        
+                        <div class="footer-col3">
+                            <h2 style="font-family: 'Kumbh Sans', sans-serif;">1.4K</h2>
+                            <p style="font-family: 'Kumbh Sans', sans-serif; color:hsl(0, 0%, 59%);">Photos</p>
+                        </div>
+                    </div>
+            </div>   
+        </div>
+
+    </div>
+
+</body>
+</html>
